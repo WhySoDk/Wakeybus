@@ -309,11 +309,7 @@ Widget w(String title, BuildContext context, String link) {
     ]),
     onTap: () {
       Navigator.pop(context);
-<<<<<<< HEAD
-      Navigator.pushNamed(context, "/$link");
-=======
       Navigator.pushNamed(context, '/$link');
->>>>>>> 44e7fa53f27e9def8687632648463a7a7faf5d6d
     },
   );
 }
